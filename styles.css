@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.card-container {
+  margin: 10%;
+}
+
+.card {
+  border: 1px solid #ccc;
+  height: 260px;
+  width: 200px;
+  position: relative;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 8px 4px #ddd;
+}
+
+.card .close,
+.card .badge {
+  position: absolute;
+  font-size: 1.3rem;
+}
+
+.card img {
+  width: 100%;
+  padding-top: 4px;
+  border-bottom: 1px solid silver;
+}
+
+.card .close {
+  top: -4px;
+  left: 4px;
+  text-shadow: 2px 2px 4px silver;
+}
+
+.card .badge {
+  right: -8px;
+  top: -10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 4px silver;
+  background-color: red;
+}
+.card .number {
+  position: relative;
+  color: white;
+}
+
+.card h4 {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
