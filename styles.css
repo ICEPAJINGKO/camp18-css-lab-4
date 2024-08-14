@@ -8,3 +8,58 @@
  }
 
 /* write code here */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.close {
+    font-size: 2rem;
+    color: gray;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.badge > div {
+    font-size: 1.5em;
+}
+
+img {
+    width: 300px;
+    border-bottom: 1px solid gray;
+    padding-top: 25px;
+}
+
+.card > h4 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+}
